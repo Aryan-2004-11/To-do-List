@@ -14,6 +14,7 @@ export const AddTodo = ({ addTodo }) => {
             addTodo(title, desc);
             setTitle("");
             setDesc("");
+            
         }
     }
     return (
